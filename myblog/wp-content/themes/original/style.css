@@ -1,0 +1,167 @@
+/*
+Theme Name: ORIGINAL
+Description: オリジナルのテーマ
+Author: 管理人
+*/
+
+/* ====================== レイアウト  ========================= */
+body						{background-color: #ffcc88;
+							margin: 0;
+							padding: 0;}
+							
+#container					{width: 840px;
+							margin: auto;}							
+
+#container_inner			{padding: 20px;
+							background-color: #ffffff;}
+
+#content					{width: 520px;
+							float: left;
+							margin: 25px 0;}
+
+#sidebar					{width: 240px;
+							float: right;
+							margin: 25px 0;}
+
+#foot						{clear: both;}
+
+#head, #content, #sidebar, #foot
+							{background-color: #ffeebb}
+
+/* ============================ リンク ========================= */
+a							{color: #000000;
+							text-decoration: none}
+
+/* ============================ ヘッダー ======================= */
+#head 						{width: 800px;
+							height: 200px;}
+							
+#head h1					{margin: 0;
+							padding-top: 35px;
+							padding-left: 30px;
+							font-size: 34px;
+							font-family: Georgia, sans-serif;}
+
+#head p						{margin: 0;
+							padding-left: 30px;
+							padding-top: 8px;
+							font-size: 16px;}
+
+/* ============================== コンテンツ  ===================== */
+#content					{background: none;}
+
+.post h2					{font-size: 24px;
+							background-image: url(images/headmark.png);
+							background-repeat: no-repeat;
+							border-bottom: solid 2px #ffcc00;
+							padding: 14px 0 14px 55px;
+							margin: 0 0 5px;}
+							
+.post p						{font-size: 14px;
+							line-height: 1.5;}
+
+.postmeta					{margin: 0;
+							text-align: right;}
+							
+/* 画像 */
+.alignleft					{float: left;
+							margin-right: 20px;
+							margin-bottom: 20px;}
+							
+.alignright					{float: right;
+							margin-left: 20px;
+							margin-bottom: 20px;}
+							
+.aligncenter				{clear: both;
+							display: block;
+							margin: 25px auto;}
+							
+.wp-caption-text			{margin: 5px 0 0;}
+
+.wp-caption					{border: solid 1px #cccccc;
+							background-color: #f1f1f1;
+							text-align: center;
+							padding: 5px 0;
+							margin-bottom: 25px;}
+							
+a img						{border: none;}
+							
+/* 前後のページへのリンク */
+.prevnext					{font-size: 14px;
+							font-family: Verdana, sans-serif;
+							margin-top: 30px;
+							overflow: hidden;}
+							
+.prevnext a:hover			{color: #ff8800;}
+
+.prev						{margin: 0;
+							float: left;}
+							
+.next						{margin: 0;
+							float: right;}
+
+/* ============================ サイドバー ======================= */
+#sidebar					{background: none;}
+
+#menu						{font-size: 12px;
+							margin: 0;
+							padding: 0;}
+
+#menu li					{list-style-type: none;}
+
+#mene ul					{margin: 0 0 30px;
+							padding: 0;}
+							
+#menu h2					{font-size: 16px;
+							font-family: Verdana, sans-serif;
+							background-image: url(images/bar.png);
+							background-repeat: no-repeat;
+							line-height: 55px;
+							padding-left: 30px;}
+							
+#menu li li					{margin-bottom: 8px;
+							line-height: 1.4;
+							background-image: url(images/mark.png);
+							background-repeat: no-repeat;
+							padding-left: 20px;
+							margin-left: 20px;}
+							
+#menu li a:hover{color: #ff8800;}
+														
+/* ========================= コメント  ========================== */
+#com						{border: solid 1px #ff8800;
+							padding: 20px;
+							margin-top: 30px;
+							clear: both;
+							font-size: 14px;}
+							
+#com h3						{margin: 0;
+							background-color: #ff8800;
+							padding: 3px 10px;
+							color: white;}
+							
+textarea					{width: 450px;
+							height: 100px;}
+							
+#tr							{background-color: #ffddaa;
+							font-size: 12px;
+							padding: 10px;}
+							
+.commentlist				{list-style-type: none;
+							clear: both;
+							margin: 0;
+							padding: 0;}
+							
+.commentlist li				{border-top: dotted 2px #ffcc00;
+							padding-top: 10px;}
+							
+.comment-meta				{font-size: 12px;}
+																																																																																																																																					
+/* ============================= フッター ======================== */
+#foot						{background: none;
+							border-top: solid 5px #ffcc00;
+							padding-top: 10px;}
+							
+#foot p						{color: #000000;
+							font-size: 12px;
+							margin: 0;}
